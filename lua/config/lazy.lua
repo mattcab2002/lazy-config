@@ -44,5 +44,3 @@ require("lazy").setup({
     },
   },
 })
-
-require("kanagawa").setup({ compile = true, transparent = true })
