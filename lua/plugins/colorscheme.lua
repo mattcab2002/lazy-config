@@ -1,5 +1,6 @@
 return {
     {
+        "catppuccin/nvim",
         "maxmx03/dracula.nvim",
         "Mofiqul/vscode.nvim",
         config = function()
@@ -48,7 +49,7 @@ return {
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "dracula-soft",
+            colorscheme = "catppuccin",
         },
     },
 }
