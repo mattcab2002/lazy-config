@@ -1,6 +1,18 @@
 return {
     {
+        "folke/tokyonight.nvim",
+        opts = {
+            transparent = true,
+            styles = {
+                sidebars = "transparent",
+                floats = "transparent",
+            },
+        },
+    },
+    {
         "catppuccin/nvim",
+    },
+    {
         "maxmx03/dracula.nvim",
         "Mofiqul/vscode.nvim",
         config = function()
@@ -49,7 +61,7 @@ return {
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "catppuccin",
+            colorscheme = "tokyonight",
         },
     },
 }
