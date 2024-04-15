@@ -1,5 +1,10 @@
 return {
     {
+        "oxfist/night-owl.nvim",
+        lazy = false, -- make sure we load this during startup if it is your main colorscheme
+        priority = 1000, -- make sure to load this before all the other start plugins
+    },
+    {
         "folke/tokyonight.nvim",
         opts = {
             transparent = true,
@@ -11,8 +16,7 @@ return {
     },
     {
         "catppuccin/nvim",
-    },
-    {
+        "projekt0n/github-nvim-theme",
         "maxmx03/dracula.nvim",
         "Mofiqul/vscode.nvim",
         config = function()
@@ -61,7 +65,7 @@ return {
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "tokyonight",
+            colorscheme = "github_dark_tritanopia",
         },
     },
 }
