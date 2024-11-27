@@ -4,7 +4,7 @@ return {
         opts = {
             formatters = {
                 prettier = {
-                    prepend_args = { "--config", "/Users/matthewshome/config/.prettierrc.yaml" },
+                    prepend_args = { "--config", "/Users/matt/.config/.prettierrc.yaml" },
                 },
             },
         },
